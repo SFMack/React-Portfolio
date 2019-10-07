@@ -1,19 +1,19 @@
 import React from 'react';
 import './css/index.css';
-import Home from './components/HomeSection/Home';
-import About from './components/AboutSection/About';
-import Portfolio from './components/PortfolioSection/Portfolio';
-import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import SectionOne from './components/Main/SectionOne/SectionOne';
+import SectionTwo from './components/Main/SectionTwo/SectionTwo';
+import SectionThree from './components/Main/SectionThree/SectionThree';
 
-function App() {
+export default function App() {
 	return (
 		<div className='App'>
-			<Home />
-			<About />
-			<Portfolio />
-			<Footer />
+			<Header />
+			<Main />
+			<SectionOne />
+			<SectionTwo />
+			<SectionThree />
 		</div>
 	);
 }
-
-export default App;
